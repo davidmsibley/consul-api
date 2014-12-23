@@ -5,3 +5,10 @@
 # Gradle
 .gradle/
 build/
+/bin/
+/target/
+
+#Eclipse
+.classpath
+/.settings/
+.project
