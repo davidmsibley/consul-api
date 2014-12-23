@@ -48,15 +48,23 @@
 		<repository>
 			<id>cida-releases</id>
 			<name>CIDA Releases</name>
-			<url>https://internal.cida.usgs.gov/maven/content/repositories/cida-releases</url>
+			<url>https://internal.cida.usgs.gov/maven/content/repositories/cida-public-releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>cida-snapshots</id>
 			<name>NWIS Snapshots</name>
-			<url>https://internal.cida.usgs.gov/maven/content/repositories/cida-snapshots</url>
+			<url>https://internal.cida.usgs.gov/maven/content/repositories/cida-public-snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
+	<repositories>
+		<repository>
+			<id>cida-public</id>
+			<name>CIDA Public Nexus</name>
+			<url>http://cida.usgs.gov/maven/cida-public/</url>
+		</repository>
+	</repositories>
+	
 	<properties>
 	</properties>
 	
